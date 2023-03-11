@@ -1,6 +1,6 @@
 import cv2,os,replicate,base64,requests,glob,time,ffmpeg
 
-api_token = "bbbecaf1d1c505aa269d0cd9b6008fd5a3e6385f"
+api_token = "your_api_token"
 os.environ["REPLICATE_API_TOKEN"] = api_token
 model = replicate.models.get("tencentarc/gfpgan")
 version = model.versions.get("9283608cc6b7be6b65a8e44983db012355fde4132009bf99d976b2f0896856a3")
